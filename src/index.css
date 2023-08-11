@@ -10,13 +10,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(69, 49, 87);
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
+  font-size: 30px;
+  background-color: rgb(129, 150, 198);
 }
 
 code {
@@ -28,7 +29,7 @@ code {
   width: 400px;
   height: 80vh;
   min-height: 300px;
-  background-color: rgb(38, 17, 56);
+  background-color: rgb(19, 78, 156);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,11 +40,13 @@ code {
   position: fixed;
   top: 20%;
   font-family: 'Lilita One', cursive;
+  text-shadow: 1px 2px 3px #d6970a;
 }
 #userInput {
   border-radius: 5px;
   padding: 10px;
   font-family: 'Lugrasimo', cursive;
+  border: solid 2px #d6970a;
 }
 .buttonContainer {
   width: 80%;
@@ -57,7 +60,7 @@ button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: solid 4px rgb(54, 33, 73);
+  border: solid 2px #d6970a;
   cursor: pointer;
 }
 .material-symbols-outlined {
